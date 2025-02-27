@@ -111,5 +111,5 @@ while True:
         ''', (timestamp, cpu_percent, mem_percent, message))
         conn.commit()
 
-    time.sleep(5) 
+    time.sleep(300) 
 
